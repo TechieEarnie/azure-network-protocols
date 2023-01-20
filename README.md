@@ -65,9 +65,58 @@ Choose users to give access to the folder (Jane doe) and set their permission le
 
 Attempt to access file shares
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/ulQTnb5.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Clicked on No-Access folder to check permissions. Windows will not allow access to the folder. Permissions are working correctly here.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/b6rBbaL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+After clicking Read-Access folder and trying not create a folder (write) this notification popped up. Permissions set to only read and not write or create folders/documents. The permissions are working correctly.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/n9h4qhH.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Clicked on the Write-Access folder. Created a text file and named it test. The permissions are working correctly for this folder. This folder has read & write permissions.
+</p>
+<br />
+
+Create a security group
+<p>
+<img src="https://i.imgur.com/YPJLsLd.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Create a new organizational unit in the Active Directory Domain.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DDnVPpy.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Name it _SECURITY_GROUPS.
+</p>
+<br />
+
+<p>
+<img src="https://i.Imgur.com/Gvtrf9l.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Create a new group within _SECURITY_GROUPS.
+</p>
+<br />
+
+<p>
+<img src="https://i.Imgur.com/g5GYnHm.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Name the group ACCOUNTANTS, set the group type to security.
 </p>
 <br />
